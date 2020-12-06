@@ -1,0 +1,23 @@
+package com.kh.java;
+
+public class HelloWorld {
+
+
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+//		System.out.println("Hello world~~");
+		
+//		클래스 -> 객체
+		HelloWorld hw = new HelloWorld();
+		hw.test1();
+	}		 
+	public void test1() {	
+			
+		System.out.println(" test1 호출!");
+		
+	}
+}

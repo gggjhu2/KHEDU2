@@ -1,0 +1,34 @@
+package com.kh.edu;
+import java.time.*;
+import java.time.format.DateTimeFormatter;
+import java.util.TimeZone;
+import java.text.DateFormat;
+import java.tex.SimpleDateFormat;
+public class TestJavaApi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		  LocalDate localDate = LocalDate.now();
+	      System.out.println(localDate); 
+		
+	      DateTimeFormatter formatter = DateTimeFormatter.ofPattern("d/MM/yyyy");
+	        String date = "18/09/2018";
+	        //convert String to LocalDate
+	        LocalDate localDate1 = LocalDate.parse(date, formatter);
+	        System.out.println(localDate1);
+
+	        // LocalDateTime 사용 시 pattern 지정하여 출력하기.
+	        LocalDateTime now = LocalDateTime.now();
+	        System.out.println("Before : " + now);
+	        DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+	        String formatDateTime = now.format(formatter2);
+	        System.out.println("After : " + formatDateTime);
+		
+		
+	}
+
+}

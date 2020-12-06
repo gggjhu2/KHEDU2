@@ -1,0 +1,23 @@
+package com.kh.print;
+
+public class PrintTest {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+		
+		PrintTest p = new PrintTest();
+		
+		P.test1();
+		
+		
+		
+		
+		
+		
+	}
+
+}

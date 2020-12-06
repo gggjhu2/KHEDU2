@@ -1,0 +1,34 @@
+package com.kh.java;
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+//		System.out.println("Hello world~~");
+
+//		클래스 -> 객체
+		HelloWorld hw = new HelloWorld();
+		hw.test1(); // 메소드 호출부
+		hw.test2();
+		System.out.println();
+
+		KHJava kh = new KHJava();
+		kh.welcome();
+
+		System.out.println("메인 메소드 출력!");
+
+	}
+
+	private void test2() {
+		// TODO Auto-generated method stub
+		System.out.println("test 2 호출!!");
+	}
+
+	// 메소드 선언부
+	public void test1() {
+
+		System.out.println(" test1 호출!");
+
+	}
+}

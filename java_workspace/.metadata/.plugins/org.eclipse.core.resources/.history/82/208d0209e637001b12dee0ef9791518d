@@ -1,0 +1,19 @@
+package com.kh.edu;
+import java.time.*;
+public class TestJavaApi {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+		
+		  LocalDate localDate = LocalDate.now();
+	      System.out.println(localDate); 
+		
+		
+		
+		
+	}
+
+}

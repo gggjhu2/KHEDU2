@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.kh.java.KHJava"/>
+    <fullyQualifiedTypeName name="com.kh.java.HelloWorld"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.MediaSize.Other"/>
+    <fullyQualifiedTypeName name="java.sql.Date"/>
+    <fullyQualifiedTypeName name="javax.swing.plaf.basic.BasicInternalFrameTitlePane.SystemMenuBar"/>
+    <fullyQualifiedTypeName name="com.kh.print.PritntTest"/>
+    <fullyQualifiedTypeName name="student.Studentrun"/>
+    <fullyQualifiedTypeName name="emp.model.vo.Employee"/>
+    <fullyQualifiedTypeName name="product.model.vo.Product"/>
+    <fullyQualifiedTypeName name="java.util.TimeZone"/>
+    <fullyQualifiedTypeName name="java.text.DateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+</qualifiedTypeNameHistroy>

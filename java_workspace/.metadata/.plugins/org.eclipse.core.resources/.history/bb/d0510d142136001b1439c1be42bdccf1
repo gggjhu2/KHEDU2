@@ -1,0 +1,35 @@
+package com.kh.print;
+
+public class PrintTest {
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		
+		
+		PrintTest p = new PrintTest();
+		
+		p.test1();
+		
+		
+		
+		
+		
+		
+	}
+
+	public void test1() {
+		
+		System.out.print("안녕");
+		System.out.print("하");
+		System.out.print("하");
+		System.out.print("하");
+		
+		
+	}
+	
+	
+	
+}

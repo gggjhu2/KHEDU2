@@ -1,0 +1,29 @@
+package student;
+
+public class Student {
+
+	
+		public static void main(String[] args) {
+			
+			
+			
+			Student stdt = new Student();
+			stdt.introduce();
+			
+			
+		}
+
+		private void introduce() {
+			// TODO Auto-generated method stub
+			
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
