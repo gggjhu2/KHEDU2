@@ -11,7 +11,7 @@ public class OperatorTest {
 //		ot.test2();
 //		ot.test2_1();
 //		ot.test3();
-		ot.test4();
+//		ot.test4();
 	}
 
 //	   
@@ -125,19 +125,19 @@ public class OperatorTest {
 //		System.out.println("a =" + a +"  "+  ", b =" + b);
 //		
 //		
-//		번외 
-//		&(AND) , |(OR) 논리비교 연산자.
-//		좌항의 결과와 상관없이 우항을 무조건 검사.
+////		번외 
+////		&(AND) , |(OR) 논리비교 연산자.
+////		좌항의 결과와 상관없이 우항을 무조건 검사.
 //		System.out.println("============");
 //		a= 1;
 //		b= 1;
 //		System.out.println(a > 0 | ++b >0);  //a =1  b-1
 //		System.out.println( a ==0 | ++b > 0); //a =1 b=2
 //		System.out.println("a =" + a +"  "+  ", b =" + b);
-		
-		//위의 예문같은 단독 엔드 단독 오아 연산자는 궂이사용하진않는다. 이런것도있다라는것정도만알면된다.
-		
-		
+//		
+//		//위의 예문같은 단독 엔드 단독 오아 연산자는 궂이사용하진않는다. 이런것도있다라는것정도만알면된다.
+//		
+//		
 //		public void test3() {
 //			
 ////			
@@ -165,7 +165,7 @@ public class OperatorTest {
 //			sc.nextLine();
 //			int num21 = sc.nextInt();
 //			System.out.println( num %2!=1 ? "짝수입니다 ":"홀수입니다"   );
-//			
+//			}
 //			
       public void test4() {
     	  
