@@ -34,7 +34,7 @@ build/
 
 ### settings
 .metadata
-**/.metadata
-**/.settings
+**/.metadata/*
+**/.settings/*
 **/.project
 **/.classpath
