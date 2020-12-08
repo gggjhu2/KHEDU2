@@ -21,9 +21,11 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value=""/>
 			<item value="D:\고니"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="C:\Users\gggjh\Downloads\01_HelloJava.zip"/>
 			<item value="C:\Users\gggjh\OneDrive\바탕 화면\ddddddd.zip"/>
 		</list>
 	</section>
