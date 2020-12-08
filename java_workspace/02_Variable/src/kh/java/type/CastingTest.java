@@ -46,7 +46,7 @@ public class CastingTest {
 		int a = 3;
 		double b = 1.5;
 
-		System.out.println(a + b);// int + double 이안 된다
+		System.out.println(a + b);// int + double 은안 된다
 //									  //double(3.0) +double(1.5) = double(4.5) 가된다 
 
 		int c = '0'; // int = char 와같다 이런경우는 법칙위배이다. 그러나 아스키코드라는 걸로 모든문자는 숫자로 저장이되어있다.
