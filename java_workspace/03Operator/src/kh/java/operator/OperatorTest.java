@@ -12,7 +12,7 @@ public class OperatorTest {
 //		ot.test2_1();
 //		ot.test3();
 //		ot.test4();
-	}
+//	}
 
 //	   
 //	   단항 연산자
@@ -167,6 +167,7 @@ public class OperatorTest {
 //			System.out.println( num %2!=1 ? "짝수입니다 ":"홀수입니다"   );
 //			}
 //			
+	}
       public void test4() {
     	  
 //    	  
