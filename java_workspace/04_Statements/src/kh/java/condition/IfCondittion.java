@@ -262,8 +262,7 @@ public class IfCondittion {
 //			System.out.println("[" + ch + "] 는 숫자가 아닙니다.");
 //		}
 //		
-		
-		
+	
 		
 		
 		
