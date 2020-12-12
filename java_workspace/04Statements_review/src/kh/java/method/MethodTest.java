@@ -1,11 +1,14 @@
 package kh.java.method;
 
+import java.util.Scanner;
+
 public class MethodTest {
 
 	public static void main(String[] args) {
 
 		MethodTest mt = new MethodTest();
-		mt.test1();
+//		mt.test1();
+		mt.test2();
 		
 	}
 	
@@ -20,6 +23,8 @@ public class MethodTest {
 	    int age = 30;
 	    
 	    //2.데이터 출력부
+	    //this (현재 객체를 가리키는 참조변수 
+	    this.printInfo(name, age);  //앞의 this는 자바랭 클래스이므로 생략하여 호출할수있다.
 //	    System.out.println("안녕하세요~" + age + "살," +name + "입니다.");
 //	    
 //	    
@@ -58,6 +63,35 @@ public class MethodTest {
 			 System.out.println("age = " +age);
 			
 		}
+		
+		
+		public void test2() {
+			
+			int num1 = inputNumber();
+			
+			int num2 = inputNumber();
+			
+			System.out.println(num1 + "+" +num2 + "=" + (num1 + num2));
+			
+			
+			
+			
+		}
+			
+		
+		//
+		// int 형 값을 리턴하는 메소드
+		//
+		//
+		public int inputNumber() {
+			Scanner sc =new Scanner(System.in);
+			System.out.println("정수 입력 :");
+			int num = sc.nextInt();
+			
+			return num ; //메소두 호출부 리턴시 num값을 가지고간다.
+			
+		}
+		
 		
 		
 
