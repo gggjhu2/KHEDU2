@@ -1,7 +1,10 @@
 package com.kh.java;
 import java.util.Date;
-import com.kh.java.other.*;    //임포트는 클래스를 불러오는 호출명이다
+
+
+//임포트는 클래스를 불러오는 호출명이다
 //import com.kh.java.other.OtehrJava;  //
+import com.kh.java.other.OtehrJava;
 public class HelloWorld {
 
 	public static void main(String[] args) {
@@ -9,6 +12,8 @@ public class HelloWorld {
 
 //		System.out.println("Hello world~~");
 
+		
+		
 //		클래스 -> 객체
 		HelloWorld hw = new HelloWorld();
 		hw.test1(); // 메소드 호출부
@@ -39,13 +44,16 @@ public class HelloWorld {
 	}
 
 	
+	   
+	
 	
 	    
 	
 	
-	private void test2() {
+	public  void test2() {
 		// TODO Auto-generated method stub
 		System.out.println("test 2 호출!!");
+		
 	}
 
 	// 메소드 선언부

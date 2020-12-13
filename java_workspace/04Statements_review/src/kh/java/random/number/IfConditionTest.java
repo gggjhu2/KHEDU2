@@ -150,6 +150,8 @@ public class IfConditionTest {
 		//  실습 문제 : 사용자로부터 문자를 입력받고,
 		//	숫자인지 아닌지 출력하세요.
 		//	나머지는 기타 특수문자입니다~ 라고 출력
+		//  유니코드 표의 한글범위'가'~'힣'
+		//
 		public void test6() {
 			Scanner sc = new Scanner(System.in);
 			System.out.println("문자 입력 :");

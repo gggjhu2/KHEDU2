@@ -10,9 +10,21 @@ public class Test6 {
 
 	}
 
+	
+	
 	public void test() {
-		Scanner sc = new Scanner(System.in);
+		
+		
+		Scanner sc = new Scanner(System.in) ;
+		
+		
+		
+		
+		
 		System.out.println("===가위 바위 보 게임===\n 숫자를 선택하세요.\n(1.가위/2.바위/3.보)");
+		
+		
+		
 		int user = sc.nextInt();
 		int rand=(int)(Math.random()*3)+1;
 		
@@ -23,18 +35,20 @@ public class Test6 {
 			System.out.println("당신은 가위를 냈습니다.");
 		}
 	else if(user==2)
+	{
 
-	{
 		System.out.println("당신은 바위를 냈습니다.");
-	}else if(user==3)
-	{
+	
+	}else if(user==3) {
 		System.out.println("당신은 보를 냈습니다.");
-	}if(rand==1)
-	{
+	}
+	 if(rand==1) {
 		System.out.println("컴퓨터는 가위를 냈습니다.");
-	}else if(rand==2)
-	{
+	}
+	 else if(rand==2){
+	
 		System.out.println("컴퓨터는 바위를 냈습니다.");
+		
 	}else if(rand==3)
 	{
 		System.out.println("컴퓨터는 보를 냈습니다.");
@@ -58,5 +72,6 @@ public class Test6 {
 
 }
 
-}
+	}
+
 
