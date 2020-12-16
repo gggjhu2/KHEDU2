@@ -31,6 +31,7 @@ public class Sample {
 			}
 		}
 		// 기존값 보여주기
+		
 		System.out.println("기존값");
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {

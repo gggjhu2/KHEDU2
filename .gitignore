@@ -34,7 +34,8 @@ build/
 
 ### settings
 .metadata
-*/.metadata/*
-*/.settings/*
-*/.project
-*/.classpath
+**/.metadata/*
+**/.settings/*
+**/.project
+**/.classpath
+**/java_workspace/.metadata
