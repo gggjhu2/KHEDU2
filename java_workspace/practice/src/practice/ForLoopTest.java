@@ -75,3 +75,4 @@ public class ForLoopTest {
 			}
 			System.out.println(price + "원을 결제해 주세요,감사합니다.");
 }
+}
